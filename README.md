@@ -1,7 +1,5 @@
 # courseProject_ComputerArchitecture
 
-[TOC]
-
 # 1. 计算机组成与系统结构实验报告
 
 # 2. 概述
@@ -111,7 +109,7 @@ endmodule
 
 ### 3.1.3. wave chart
 
-![1562395931418](.\assets\1562395931418.png)
+![1562395931418](assets/1562395931418.png)
 
 Firstly I wrote each data into register $10 and $11 than read them out. The result shows the data can be both write and read correctly.
 
@@ -218,7 +216,7 @@ endmodule
 
 module PC and NPC are tested together
 
-![1562395985708](.\assets\1562395985708.png)
+![1562395985708](assets/1562395985708.png)
 
 Firstly I set rst = 1 so as to reset the circuit, than I tried different NPCOp: next PC, Branch and Jump, the result shows it works correctly.
 
@@ -284,7 +282,7 @@ endmodule
 
 ### 3.3.3. wave chart
 
-![1562396034327](.\assets\1562396034327.png)
+![1562396034327](assets/1562396034327.png)
 
 For the input 16-bits immediate, use signed extend ,unsigned extend and HIGHPOS to do extension
 
@@ -357,7 +355,7 @@ endmodule
 
 ### 3.4.3. wave chart
 
-![1562396115193](.\assets\1562396115193.png)
+![1562396115193](assets/1562396115193.png)
 
 set A,B with two different value and try :add, sub and or. We can see that *Zero* bit also works if A equals B
 
@@ -542,7 +540,7 @@ endmodule
 
 Here I initialize three multiplexer
 
-![1562396152198](.\assets\1562396152198.png)
+![1562396152198](assets/1562396152198.png)
 
 ## 3.7. Instruction memory
 
@@ -602,7 +600,7 @@ endmodule
 
 ### 3.7.3. wave chart
 
-![1562396176949](.\assets\1562396176949.png)
+![1562396176949](assets/1562396176949.png)
 
 ## 3.8. Data memory
 
@@ -688,7 +686,7 @@ endmodule
 
 ### 3.8.3. wave chart
 
-![1562396198736](.\assets\1562396198736.png)
+![1562396198736](assets/1562396198736.png)
 
 ## 3.9. Register between stages
 
@@ -725,19 +723,19 @@ endmodule
 
 - Registers between stages
 
-![1562395549756](.\assets\1562395549756.png)
+![1562395549756](assets/1562395549756.png)
 
 - Data memory and register file
 
-  ![1562395638227](.\assets\1562395638227.png)
+  ![1562395638227](assets/1562395638227.png)
 
 - extender and ALU
 
-  ![1562395650391](.\assets\1562395650391.png)
+  ![1562395650391](assets/1562395650391.png)
 
 - Instruction fetch and control unit
 
-  ![1562395662077](.\assets\1562395662077.png)
+  ![1562395662077](assets/1562395662077.png)
 
 ### 4.1.2. Verilog Code
 
@@ -848,7 +846,7 @@ endmodule
 
 ## 4.2. 状态机
 
-![1562395691538](.\assets\1562395691538.png)
+![1562395691538](assets/1562395691538.png)
 
 - Fetch：首先从instruction memory中Fetch一条指令
 - DCD：将Fetch的结果进行Decode，得到rd，rt，rs，imm16，opt，func等字段
@@ -1171,37 +1169,37 @@ while(not result == 0x900):
 
 跑起来了
 
-![1562396613092](.\assets\1562396613092.png)
+![1562396613092](assets/1562396613092.png)
 
 ### 5.2.1. 寄存器结果
 
-![1562396648187](.\assets\1562396648187.png)
+![1562396648187](assets/1562396648187.png)
 
 ### 5.2.2. ALU运算
 
 #### 5.2.2.1. add运算
 
-![1562396790747](.\assets\1562396790747.png)
+![1562396790747](assets/1562396790747.png)
 
 #### 5.2.2.2. sub运算
 
-![1562396840177](.\assets\1562396840177.png)
+![1562396840177](assets/1562396840177.png)
 
 #### 5.2.2.3. or运算
 
-![1562396738440](.\assets\1562396738440.png)
+![1562396738440](assets/1562396738440.png)
 
 ### 5.2.3. PC和NPC
 
-![1562397021778](.\assets\1562397021778.png)
+![1562397021778](assets/1562397021778.png)
 
 ### 5.2.4. Instruction fetch
 
-![1562397123815](.\assets\1562397123815.png)
+![1562397123815](assets/1562397123815.png)
 
 ### 5.2.5. Register file
 
-![1562397228750](.\assets\1562397228750.png)
+![1562397228750](assets/1562397228750.png)
 
 
 
